@@ -1,0 +1,15 @@
+ikinci-el-arac-fiyat-tahmini/
+│
+├── data/
+│   └── used_car_price_dataset.csv     # Üretilen veri seti
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_generator.py             # Veri seti oluşturma modülü
+│   ├── eda.py                        # Keşifçi veri analizi (Görselleştirme)
+│   ├── preprocessing.py              # Ön işleme & Feature Engineering
+│   └── train.py                      # Model eğitimi ve değerlendirme
+│
+├── main.py                           # Tüm boru hattını (pipeline) çalıştıran ana script
+├── requirements.txt                  # Bağımlılıklar (pandas, scikit-learn vb.)
+└── README.md                         # Proje dokümantasyonu (GitHub için)
